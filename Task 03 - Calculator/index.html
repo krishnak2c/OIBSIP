@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1 user-scalable=no, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Calculator</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" type="image/png" href="images/favicon.png">
+	<link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-70447982-5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-70447982-5');
+</script>
+</head>
+
+<body>
+	<div class="container">
+		<h1><a style="text-decoration: none; color: #29a8ff; margin-left: 0.25rem;" href="" onclick="location.reload();">CALCULATOR</a><img id="historybutton" src="history.png"></h1 >
+		<div class="calculator">
+			<input type="text" name="screen" id="answer" readonly>
+			<table>
+				<tr>
+					<td><button>(</button></td>
+					<td><button>)</button></td>
+					<td><button style="background-color: #f01600; font-weight: bold; color: #ecf0f1;">C</button></td>
+					<td><button>%</button></td>
+				</tr>
+				<tr>
+					<td><button>7</button></td>
+					<td><button>8</button></td>
+					<td><button>9</button></td>
+					<td><button>X</button></td>
+				</tr>
+				<tr>
+					<td><button>4</button></td>
+					<td><button>5</button></td>
+					<td><button>6</button></td>
+					<td><button>-</button></td>
+				</tr>
+				<tr>
+					<td><button>1</button></td>
+					<td><button>2</button></td>
+					<td><button>3</button></td>
+					<td><button>+</button></td>
+				</tr>
+				<tr>
+					<td><button>0</button></td>
+					<td><button style="font-weight: bold;">.</button></td>
+					<td><button>/</button></td>
+					<td><button style="background-color: #25db72; font-weight: bold; color: #ecf0f1;">=</button></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<div id="bar1" class = "bars"></div>
+	<div id="bar2" class = "bars"></div>
+	<div id="history">
+	</div>
+	<footer id="section-contact">
+            <div class="copyright">
+                <p><svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24" fill="#000000"><g><rect fill="none" height="24" width="24" x="0"/></g><g><g><g><path d="M11.88,9.14c1.28,0.06,1.61,1.15,1.63,1.66h1.79c-0.08-1.98-1.49-3.19-3.45-3.19C9.64,7.61,8,9,8,12.14 c0,1.94,0.93,4.24,3.84,4.24c2.22,0,3.41-1.65,3.44-2.95h-1.79c-0.03,0.59-0.45,1.38-1.63,1.44C10.55,14.83,10,13.81,10,12.14 C10,9.25,11.28,9.16,11.88,9.14z M12,2C6.48,2,2,6.48,2,12s4.48,10,10,10s10-4.48,10-10S17.52,2,12,2z M12,20c-4.41,0-8-3.59-8-8 s3.59-8,8-8s8,3.59,8,8S16.41,20,12,20z"/></g></g></g></svg>2023 Krishna Choudhary</p>
+            </div>
+        </footer>
+    <div id="turn">
+    PLEASE TURN YOUR DEVICE
+	</div>
+</body>
+<script src="hist.js"></script>
+<script src="calc.js"></script>
+</html>
