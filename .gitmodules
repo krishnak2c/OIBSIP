@@ -1,3 +1,9 @@
 [submodule "Task02-Tribute_page"]
 	path = Task02-Tribute_page
 	url = https://github.com/krishnak2c/Tribute-Page
+[submodule "Task01-Calculator"]
+	path = Task01-Calculator
+	url = https://github.com/krishnak2c/Basic-Calculator
+[submodule "Task03-ToDo_List"]
+	path = Task03-ToDo_List
+	url = https://github.com/krishnak2c/ToDo-List-WebApp
