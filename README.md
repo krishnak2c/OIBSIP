@@ -1,6 +1,6 @@
 # OIBSIP
 
-Oasis Infobyte Web development and designing
+This repository contains Level 2 projects of Oasis Infobyte Web development and designing internship.
 # LEVEL 2
 <br>
 👇Click image to access website
